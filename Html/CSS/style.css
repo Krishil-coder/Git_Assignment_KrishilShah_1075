@@ -1,0 +1,52 @@
+body{
+   background-color: rgb(162, 218, 233);
+}
+#p1{
+    font-style: italic;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: black;
+    font-variant: small-caps;
+}
+#p2{
+    text-decoration: overline;
+    text-decoration-color: red;
+    color: red;
+    word-spacing: 10px;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 3px grey;    
+}   
+#First{
+    height: 100px;
+    width: 200px;
+    border: 2px solid black;
+    overflow: visible;
+    padding-left: 10px;
+    
+}
+#Second{
+     height: 100px;
+    width: 200px;
+    border: 2px solid black;
+    overflow: hidden;
+
+   
+}
+#Third{
+     height: 100px;
+    width: 200px;
+    border: 2px solid black;
+    overflow: scroll;
+
+  
+}
+#Fourth{
+     height: 100px;
+    width: 200px;
+    border: 2px solid black;
+    overflow: auto;
+
+   
+}
