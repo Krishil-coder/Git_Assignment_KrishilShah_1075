@@ -1,0 +1,77 @@
+body{
+    background-color: aqua;
+    background-image: url("../images/city view.jpeg" );
+}
+#Box1{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    position: absolute ;
+    text-align: start;
+    font-size: 20px;
+    left:400px;
+    transform: skew(40deg);
+    background-color: rgb(231, 151, 165);
+}
+
+#Box2{
+    height: 150px;
+    width: 100px;
+    border: 2px solid black;
+    position: relative ;
+    top:200px;
+    left: 400px;
+    transform: rotate(90deg);
+    background-color: rgb(243, 163, 212);
+
+}
+#Box3{
+    height: 150px;
+    width: 200px;
+    border: 2px solid black;
+    position: fixed;
+    top:550px;
+    left: 450px;
+    background-color: rgb(228, 228, 169);
+    animation: name duration timing-function delay iteration-count direction fill-mode;
+}
+#Box3:hover{
+    background-color: red;
+}
+
+#Box4{
+    height: 150px;
+    width: 50px;
+    border: 2px solid black;
+    position: relative ;
+    z-index: -1;
+    bottom: 150;
+    text-align: center;
+    font-size: 25;
+    background-color: rgb(243, 163, 226);
+}
+#Box5{
+    height: 150px;
+    width: 150px;
+    border: 2px solid black;
+    position: sticky;
+    top: 10px;
+    left: 200px;
+    bottom: 50px;
+    background-color: rgb(247, 34, 247);
+}
+#Box6{
+    height: 100px;
+    width: 100px;
+    bottom: 200px;
+    border: 2px solid black;
+    position: absolute ;
+    z-index: -1;
+    top:200px;
+    left: 450px;
+    background-color: rgb(243, 163, 212);
+        z-index: -1;
+}
+#Box{
+    transform: scale(1px);
+}

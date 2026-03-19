@@ -1,0 +1,79 @@
+
+body{
+    background-image: url();
+}
+#Ptag1::first-letter{
+    font-size: larger;
+    font-weight: bolder;
+    color: red;
+}
+#Ptag2::first-line{
+    font-size: larger;
+    font-weight: bolder;
+}
+#Ptag3::before{
+    content: 'Note';
+    background-color: red;
+}
+.copyright::after{
+    content: " © 2026";
+}
+
+li:nth-child(1n){
+background-color: lightblue;
+}
+li:nth-child(2n){
+background-color: lightcoral;
+}
+
+#Link1{
+    color: red;
+}
+#Link1:hover{
+    color: black;
+}
+
+#Link2{
+    color: blue;
+}
+
+#Link2:hover{
+    color: black
+}
+img[src*='jpeg']{
+     border: 4px solid black;
+}
+img{
+    height: 200px;
+    width: 200px;
+}
+/* #IMAGE{
+    border: 4px solid black;
+} */
+
+input[type="text"]{
+    background-color: lightgreen;
+}
+
+
+div P{
+    background-color:pink;
+    color: white;
+}
+div>p{
+    background-color: aqua;
+    color: black;
+}
+div~P{
+    background-color:greenyellow;
+    color: black;
+}
+div+p{
+    background-color: red;
+    color: white;
+}
+
+input[type="checkbox"]:checked + label{
+    color: red;
+    font-weight: bold;
+}
